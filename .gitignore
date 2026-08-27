@@ -32,6 +32,16 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
+
+# agent tooling
+.agents/
+.claude/
+.cursor/
+.devin/
+
+# local prisma config (agent skills)
+prisma.config.ts
 
 # vercel
 .vercel
